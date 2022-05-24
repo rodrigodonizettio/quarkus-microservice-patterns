@@ -1,4 +1,4 @@
-package br.com.rodrigodonizettio;
+package br.com.rodrigodonizettio.config;
 
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.Test;
@@ -10,7 +10,7 @@ import static org.hamcrest.CoreMatchers.containsString;
 public class ExternalizedConfigExampleResourceTest {
 
     @Test
-    public void testHelloEndpoint() {
+    public void assertExternalizedConfigurationIsGetAtAppPropsTest() {
         given()
           .when().get("/config")
           .then()

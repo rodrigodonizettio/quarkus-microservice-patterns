@@ -1,4 +1,4 @@
-package br.com.rodrigodonizettio;
+package br.com.rodrigodonizettio.config;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
 
